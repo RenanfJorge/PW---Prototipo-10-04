@@ -1,0 +1,32 @@
+body{
+    padding: 2rem;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+/* MOBILE FIRST*/
+#ListaDeTarefas{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr)); 
+    gap: 1rem;
+    /* NEST CSS*/
+}
+/*
+@media (min-width: 768px){
+    #ListaDeTarefas{
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+ MEDIA QUERY 
+@media (min-width: 1024px){
+    #ListaDeTarefas{
+     grid-template-columns: repeat(3, 1fr);
+    }
+} */
